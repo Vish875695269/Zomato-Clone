@@ -1,0 +1,152 @@
+*{
+ margin: 0px;                       
+}
+
+body{
+background-color: rgb(232, 228, 228);
+}
+
+.images{
+  position: relative;
+}
+
+.card:hover{
+  background-color:white;
+  border-color: white;
+
+}
+
+.card{
+   display: inline-block;
+   margin-left: 10px;
+   margin-right: 20px;
+   margin-top: 10px;
+   cursor: pointer;
+   border:20px solid rgb(232, 228, 228);
+   border-radius: 10px;
+
+}
+
+.first{
+  margin-left: 200px;
+}
+
+.second{
+ padding-bottom: 10px;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+
+.third{
+  height: 500px;
+  background-color: grey; 
+ }
+
+ .dining{
+  margin-left: 200px;
+ }
+
+.img3,.img4,.img5{
+  height: 50px;
+  width: 50px;
+ }
+ 
+.dine,.Delivery,.NightLife{
+  position: relative;
+  bottom: 15px;
+  left: 5px;
+  font-size: 20px;
+  color: rgb(145, 115, 115);
+}
+
+.Dilevery{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.brand{
+  color: rgb(194, 3, 3);
+  margin-right: 50px;
+  font-size: 30px;
+}
+
+.Searching{
+  height: 30px;
+  width: 300px;
+  margin-right: 50px;
+  position: relative;
+  bottom: 13px;
+}
+
+button{
+  height: 50px;
+  width: 80px;
+  position: relative;
+  bottom: 10px;
+  font-size: 15px;
+  margin-right: 50px;
+  border: none;
+  color: rgb(162, 155, 155);
+}
+
+.head{
+  background-color: white;
+}
+
+.Box{
+ display: inline-block;                       
+}
+
+.img{
+  height: 200px;
+  width: auto;
+  border-radius: 10px;                      
+}
+
+.off{
+font-size: 30px;
+color:white;
+background-color:rgba(236, 4, 4,0.6);
+position: absolute;
+bottom: 10px;
+left: 5px;
+}
+
+.Restaurant_name{
+  font-size: 20px;
+  font-weight: bold;                      
+}
+
+.Restaurant,.Food,.Location{
+position: relative;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+
+
+.rating{
+ background-color: green; 
+ height: 20px;
+ padding: 3px; 
+ position: absolute; 
+ right: 5px; 
+ color: white;
+ border-radius: 8px;                   
+}
+
+.price,.Distance{
+  position:absolute;
+  right: 20px;
+}
+
+.Food,.Place{
+  font-size: 15px;
+  color: rgb(112, 109, 109);
+}
+
+.Distance{
+  font-weight: bold;
+  font-size: 10px;
+}
